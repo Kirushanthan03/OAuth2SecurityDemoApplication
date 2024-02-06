@@ -1,0 +1,25 @@
+GitHub
+
+client ID :- Iv1.bb49f086983f293e
+
+SECRET KEY:- f1810abc24153ab86b27f8d0336232f38b4e398d
+
+
+Google
+
+Client Id :- 312779466340-l07cq4doej31j3b9rdpth71juj4l2d8t.apps.googleusercontent.com
+
+Secret key:- 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
+
+
+spring:
+  security:
+    oauth2:
+        client:
+          registration:
+            github:
+              client-id: Iv1.bb49f086983f293e 
+              client-secret: f1810abc24153ab86b27f8d0336232f38b4e398d
+            google:
+              client-id: 312779466340-l07cq4doej31j3b9rdpth71juj4l2d8t.apps.googleusercontent.com
+              client-secret: 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
